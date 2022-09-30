@@ -1,2 +1,2 @@
 + 반응형 웹
-+ https://min0312.github.io/project_1/
++ https://min0312.github.io/project_1/_web
