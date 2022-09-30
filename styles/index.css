@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: 'EliceDigitalBaeum-Bd';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
@@ -185,4 +186,193 @@ footer>ul {
   footer > p {
     width: 100%;
   }
+=======
+@font-face {
+  font-family: 'EliceDigitalBaeum-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'S-CoreDream-3Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*전체 적용*/
+* {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+nav {
+  background-color: #4D4C7D;
+  display: flex;
+  justify-content: space-between;
+  color: #D8B9C3;
+  height: 50px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  top : 0;
+  position:sticky;
+}
+
+nav>ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav_menu>li>a {
+  padding: 5px;
+}
+
+.nav_icon>li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav a:link {
+  color : #D8B9C3;
+  text-decoration-line: none;
+}
+
+nav a:visited {
+  color: #C8D9EB;
+  text-decoration-line: none;
+}
+
+header {
+  background-color: #363062; 
+  color: #EFEDFF;
+}
+
+header > section {
+  display: flex;
+  align-items: center;
+}
+
+.header_left { 
+  font-family: "EliceDigitalBaeum-Bd";
+  font-size: 25px;
+  width : 30%;
+  padding: 10px 30px 10px 30px;
+  text-align: center;
+}
+
+.header_right {
+  font-size: 17px;   
+  width : 70%;
+  padding: 10px 30px 10px 30px;
+  font-family: 'NanumSquareRound';
+}
+
+main {
+  background-color: #9091b3;
+  color: #05021b;
+  display: flex;
+}
+
+.content>h1{
+  font-family: "EliceDigitalBaeum-Bd";
+  padding: 5px;
+}
+
+.content > p {
+  padding: 3px;
+}
+
+.content {
+  font-family: 'NanumSquareRound';
+}
+
+main>section {
+  width: 25%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  border-radius: 25%;
+  padding: 5px;
+}
+
+footer {
+  background-color: #4D4C7D;
+  color: #D8B9C3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'S-CoreDream-3Light';
+  bottom: 0;
+  position: sticky;
+}
+
+footer>p {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+footer>ul {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 13px;
+}
+
+@media only screen and (max-width:600px) {
+  nav {
+    height: 30px;
+  }
+
+  header > section {
+    flex-direction:column ;
+    align-items :center;
+  }
+
+  .header_left, .header_right {
+    width : 90%;
+  }
+
+  .header_left {
+    font-size: 23px;
+  }
+
+  .header_right {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  main {
+    flex-direction:column ;
+    align-items :center;
+  }
+  
+  main>section {
+    width: 85%; 
+    text-align: center;
+  }
+
+  footer > ul {
+    display: none;
+  }
+
+  footer > p {
+    width: 100%;
+  }
+>>>>>>> 59f17de097fc4ff3eaa12d2133e695d6501d8476
 }
